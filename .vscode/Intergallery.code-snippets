@@ -1,0 +1,7 @@
+{
+  "Custom UI Component": {
+    "prefix": "igCustomUiComponent",
+    "scope": "typescriptreact",
+    "body": []
+  }
+}

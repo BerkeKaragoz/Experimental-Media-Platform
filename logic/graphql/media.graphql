@@ -1,0 +1,15 @@
+type Media {
+  name: String
+  search: String
+  sources: [MediaSource!]
+}
+
+type MediaSource @embedded {
+  name: String
+  url: String
+  isLocal: Boolean
+}
+
+type Query {
+  allMedia: [Media!]!
+}
